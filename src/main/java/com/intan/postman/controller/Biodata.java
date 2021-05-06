@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class Biodata {
 
     @GetMapping()
-    public BiodataDto getSomething() {
+    public BiodataDto getSomething(@RequestBody BiodataDto biodataDto) {
         BiodataDto b = new BiodataDto();
-        b.setNama("intan");
-        b.setAlamat("garut");
+        b.setNama(biodataDto.getNama());
+        b.setAlamat(biodataDto.getAlamat());
         return b;
     }
 
