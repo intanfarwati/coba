@@ -15,4 +15,12 @@ public class Biodata {
         return b;
     }
 
+    @GetMapping()
+    public BiodataDto getThis() {
+        BiodataDto b = new BiodataDto();
+        b.setNama("siapa ya");
+        b.setAlamat("dimana ya");
+        return b;
+    }
+
 }
