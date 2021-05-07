@@ -1,6 +1,6 @@
 package com.intan.postman.controller;
 
-import com.intan.postman.model.BiodataDto;
+import com.intan.postman.model.dto.BiodataDto;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

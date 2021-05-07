@@ -1,4 +1,4 @@
-package com.intan.postman.model;
+package com.intan.postman.model.dto;
 
 import lombok.Data;
 
